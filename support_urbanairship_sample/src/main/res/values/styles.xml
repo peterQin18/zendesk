@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="ZendeskSdkTheme.Light.DarkActionBar">
+        <item name="colorPrimary">@color/zendesk_color_primary</item>
+        <item name="colorPrimaryDark">@color/zendesk_color_primary_dark</item>
+        <item name="colorAccent">@color/zendesk_color_accent</item>
+    </style>
+
+</resources>

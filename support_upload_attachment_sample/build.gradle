@@ -1,0 +1,29 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    defaultConfig {
+        applicationId rootProject.ext.applicationId + ".uploadattachment"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation group: 'com.zendesk', name: 'support-providers', version: rootProject.ext.supportSdkVersion
+    implementation group: 'com.zendesk', name: 'belvedere', version: "1.1.1.1"
+
+    implementation group: 'androidx.appcompat', name: 'appcompat', version: rootProject.ext.appCompatVersion
+    implementation group: 'com.google.android.material', name: 'material', version: rootProject.ext.appCompatVersion
+
+    implementation project(":demo_apps_commons")
+}

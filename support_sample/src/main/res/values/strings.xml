@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="app_name">SDK Sample</string>
+    <string name="main_btn_contact">Contact Zendesk</string>
+    <string name="main_btn_request_list">Ticket List</string>
+    <string name="main_btn_helpcenter">Support</string>
+    <string name="main_edittext_support_hint">label1,label2 or [category_id] (optional)</string>
+
+    <string name="main_edittext_push_hint">Push device token</string>
+    <string name="main_btn_push_register">Register Push</string>
+    <string name="main_btn_push_register_ua">Register Push UA</string>
+    <string name="main_btn_push_unregister">Unregister Push</string>
+
+    <string name="main_edittext_tags">User tags</string>
+    <string name="main_btn_add_tags">Add tags</string>
+    <string name="main_btn_remove_tags">Remove tags</string>
+
+    <string name="missing_credentials">You must provide a valid Zendesk subdomain url, application id, and oauth client id for this demo to function</string>
+</resources>

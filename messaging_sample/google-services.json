@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "311695539840",
+    "firebase_url": "https://kiki-message-dev.firebaseio.com",
+    "project_id": "kiki-message-dev",
+    "storage_bucket": "kiki-message-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311695539840:android:034790ae64c9b443363065",
+        "android_client_info": {
+          "package_name": "com.kikitrade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311695539840-9ce54frqqf03ntb1tntlf919ueri7l6a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kikitrade",
+            "certificate_hash": "0a0133aac87d923300e6a38e9c013a5e1044ced3"
+          }
+        },
+        {
+          "client_id": "311695539840-c8cf3d3rc6fbjlv9ub2pudk9qgvt0om7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kikitrade",
+            "certificate_hash": "6db7eaea63937df40f3d886f540d9498ab40e790"
+          }
+        },
+        {
+          "client_id": "311695539840-kkkjqf5hrcvbbp4k3233l7faurmjk0m4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbhwytaFst16ehnQ3DBP3X0HlOiv0k1zM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "311695539840-4aldh8vfbe16hmjsbvjav9o915o37sof.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "311695539840-86t92kk23d4nf32an8o2p7vdt9kp2lat.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.evg.kikitrade",
+                "app_store_id": "1507120441"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
