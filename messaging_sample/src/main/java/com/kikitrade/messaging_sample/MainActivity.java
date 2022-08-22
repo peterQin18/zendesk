@@ -3,15 +3,10 @@ package com.kikitrade.messaging_sample;
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
-import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.ContextCompat;
 
-import android.Manifest;
-import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -30,8 +25,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.missing_credentials);
         logRegToken();
         findViewById(R.id.goto_zendesk).setOnClickListener(v -> Zendesk.getInstance().getMessaging().showMessaging(MainActivity.this));
-
-
     }
 
     private void logRegToken() {
