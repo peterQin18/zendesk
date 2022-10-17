@@ -31,7 +31,7 @@ android {
 dependencies {
     implementation platform('com.google.firebase:firebase-bom:30.3.2')
     implementation 'com.google.firebase:firebase-analytics'
-    implementation "zendesk.messaging:messaging-android:2.4.0"
+    implementation "zendesk.messaging:messaging-android:2.6.0"
     implementation 'com.google.firebase:firebase-messaging:22.0.0'
     api group: 'androidx.appcompat', name: 'appcompat', version: rootProject.ext.appCompatVersion
 

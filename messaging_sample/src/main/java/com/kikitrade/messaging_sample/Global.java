@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import zendesk.android.FailureCallback;
 import zendesk.android.SuccessCallback;
 import zendesk.android.Zendesk;
+import zendesk.logger.Logger;
 import zendesk.messaging.android.DefaultMessagingFactory;
 
 
@@ -27,11 +28,12 @@ public class Global extends Application {
         super.onCreate();
 
         // Enable logging
-
+        Logger.setLoggable(true);
 
 
         Zendesk.initialize(this,
-                "eyJzZXR0aW5nc191cmwiOiJodHRwczovL2tpa2l0cmFkZS56ZW5kZXNrLmNvbS9tb2JpbGVfc2RrX2FwaS9zZXR0aW5ncy8wMUc4WlJGSkhFR1ZETjRBODRGWkhTQlpWRy5qc29uIn0=", new SuccessCallback<Zendesk>() {
+                "eyJzZXR0aW5nc191cmwiOiJodHRwczovL2tpa2l0cmFkZS56ZW5kZXNrLmNvbS9tb2JpbGVfc2RrX2FwaS9zZXR0aW5ncy8wMUc4WlJGSkhFR1ZETjRBODRGWkhTQlpWRy5qc29uIn0=",
+                new SuccessCallback<Zendesk>() {
                     @Override
                     public void onSuccess(Zendesk zendesk) {
                         Log.d("Message"," 初始化成功");

@@ -24,7 +24,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.missing_credentials);
         logRegToken();
-        findViewById(R.id.goto_zendesk).setOnClickListener(v -> Zendesk.getInstance().getMessaging().showMessaging(MainActivity.this));
+        findViewById(R.id.goto_zendesk).setOnClickListener(
+                v -> Zendesk.getInstance().getMessaging().showMessaging(MainActivity.this)
+        );
     }
 
     private void logRegToken() {
